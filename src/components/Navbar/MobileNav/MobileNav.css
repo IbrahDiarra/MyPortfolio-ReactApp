@@ -21,6 +21,10 @@
     padding: 2rem;
 }
 
+.mobile-menu-container h5{
+    margin-bottom: 3rem;
+}
+
 .mobile-menu.active{
     opacity: 1;
     transform: translateX(0);

@@ -6,7 +6,7 @@ export const MobileNav = ({isOpen, toggleMenu}) => {
     <>
         <div className={`mobile-menu ${isOpen ? "active" : ""}`} onClick={toggleMenu}>
             <div className='mobile-menu-container'>
-                <span>MyPortfolio</span>
+                <h5>MyPortfolio</h5>
 
                 <ul>
                     <li>

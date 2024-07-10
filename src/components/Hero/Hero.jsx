@@ -5,9 +5,20 @@ export const Hero = () => {
   return (
     <section className="hero-container">
         <div className="hero-content">
-            <h2>Building Digital Experiences That Inspire</h2>
+            <h2>Ibrahim DIARRASSOUBA</h2>
             <p>
-                Passionate Frontend Developer | Transforming Ideas into Seamless and Visually Stunning Web Solutions
+            Élève Ingénieur en 
+            3ème année
+            Science et Technologie de
+            l’Information et de la
+            Communication (STIC) à l’INPHB,
+            passionné par les nouvelles
+            technologies. Rigoureux, organisé
+            et doté d'un esprit d’équipe, je
+            suis à la recherche d'un stage
+            enrichissant pour approfondir mes
+            compétences et contribuer à la
+            réussite de votre entreprise.
             </p>
         </div>
 
