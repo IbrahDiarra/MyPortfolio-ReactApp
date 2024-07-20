@@ -14,7 +14,7 @@ const WorkCard = ({details}) => {
             )}
         </ul>
     </div>
-  );
+  ); 
 };
 
 export default WorkCard;

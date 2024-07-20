@@ -24,8 +24,13 @@ export const Hero = () => {
 
         <div className="hero-img">
             <div>
-                <div className="tech-icon">
-                    <img src="./assets/images/img01.png" alt="" />
+                <div className='tech-icons'>
+                    <div className="tech-icon">
+                        <img src="./assets/images/img01.png" alt="" />
+                    </div>
+                    <div className="tech-icon">
+                        <img src="./assets/images/img01.png" alt="" />
+                    </div>
                 </div>
                 <img src="./assets/images/img11.png" alt="" className='img-hero' />
             </div>
@@ -36,6 +41,12 @@ export const Hero = () => {
                 </div>
                 <div className="tech-icon">
                     <img src="./assets/images/img03.png" alt="" />
+                </div>
+                <div className="tech-icon">
+                    <img src="./assets/images/img04.png" alt="" />
+                </div>
+                <div className="tech-icon">
+                    <img src="./assets/images/img04.png" alt="" />
                 </div>
                 <div className="tech-icon">
                     <img src="./assets/images/img04.png" alt="" />

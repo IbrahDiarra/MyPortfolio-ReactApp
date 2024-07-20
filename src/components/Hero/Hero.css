@@ -70,6 +70,12 @@
     transition: all 0.3s ease;
 }
 
+.tech-icons{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
 .tech-icon{
     width: 5rem;
     height: 5rem;
