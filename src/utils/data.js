@@ -3,45 +3,43 @@ export const SKILLS = [
         title:"Frontend",
         icon:"./assets/images/frontend-icon.png",
         skills:[
-            {skill:"HTML",percentage:"80%"},
-            {skill:"CSS3 (Sass/SCSS)",percentage:"90%"},
-            {skill:"JavaScript",percentage:"75%"},
-            {skill:"React.js",percentage:"80%"},
+            {skill:"HTML & CSS & JS",percentage:"80%"},
+            {skill:"React.js",percentage:"50%"},
+            {skill:"Angular",percentage:"51%"},
         ],
     },
     {
         title:"Backend",
         icon:"./assets/images/backend-icon.png",
         skills:[
-            {skill:"Node.js",percentage:"70%"},
-            {skill:"Express.js",percentage:"85%"},
-            {skill:"PHP",percentage:"90%"},
+            {skill:"Django",percentage:"54%"},
+            {skill:"Express.js",percentage:"40%"},
+            {skill:"Laravel",percentage:"51%"},
         ],
     },
     {
-        title:"Tools",
+        title:"LOISIRS",
         icon:"./assets/images/tools-icon.png",
         skills:[
-            {skill:"Git & GitHub",percentage:"80%"},
-            {skill:"Photoshop",percentage:"70%"},
-            {skill:"Web Design",percentage:"85%"},
-            {skill:"VS Code",percentage:"90%"},
+            {skill:"Lecture de Romans",percentage:"60%"},
+            {skill:"Sport",percentage:"45%"},
+            {skill:"Recherches",percentage:"85%"},
         ],
     },
     {
         title:"Soft Skills",
         icon:"./assets/images/soft-skills-icon.png",
         skills:[
-            {skill:"Collaboration",percentage:"80%"},
-            {skill:"Attention to Detail",percentage:"90%"},
-            {skill:"Adaptability",percentage:"85%"},
+            {skill:"Créative & Organisée",percentage:"92%"},
+            {skill:"Travail en équipe",percentage:"95%"},
+            {skill:"Communication",percentage:"90%"},
         ],
     },
 ];
 
 
 
-export const WORK_EXPERIENCE = [ 
+export const WORK_EXPERIENCES = [ 
     {
         title: "Senior Frontend Developer at INPHB",
         date: "January 2024 - Present",
@@ -73,3 +71,28 @@ export const WORK_EXPERIENCE = [
         ],
     },
 ];
+
+
+
+export const WORK_EXPERIENCE = [ 
+    {
+        title: "Institut National Polytechnique Felix Houphouët Boigny, Yamoussoukro",
+        date: "Août 2023 - Juillet 2024",
+        responsabilities: "Elève Ingénieur en Science et Technologie de l’Information et de la Communication Option Informatique (2e Année)"
+    },
+    {
+        title: "Institut National Polytechnique Felix Houphouët Boigny, Yamoussoukro",
+        date: "Septembre 2022 - Juillet 2023",
+        responsabilities: "Elève Ingénieur en Science et Technologie de l’Information et de la Communication (1er Année)"
+    },
+    {
+        title: "Université Nangui Abrogoua, Abidjan ",
+        date: "Octobre 2020 - Decembre 2021",
+        responsabilities: "Licence de Mathématique et Informatique"
+    },
+    {
+        title: "Lycée Moderne Agnibilekrou",
+        date: "Septembre 2016 - Juillet 2017",
+        responsabilities: "Baccalauréat Série C"
+    },
+]

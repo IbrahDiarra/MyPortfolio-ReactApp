@@ -9,9 +9,7 @@ const WorkCard = ({details}) => {
         <div className="work-duration">{details.date}</div>
 
         <ul>
-            {details.responsabilities.map((item) =>
-                <li key={item}>{item}</li>
-            )}
+            <li>{details.responsabilities}</li>
         </ul>
     </div>
   ); 

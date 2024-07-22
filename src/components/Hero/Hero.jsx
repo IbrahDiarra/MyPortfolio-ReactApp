@@ -29,7 +29,7 @@ export const Hero = () => {
                         <img src="./assets/images/img01.png" alt="" />
                     </div>
                     <div className="tech-icon">
-                        <img src="./assets/images/img01.png" alt="" />
+                        <img src="./assets/images/angular.png" alt="" />
                     </div>
                 </div>
                 <img src="./assets/images/img11.png" alt="" className='img-hero' />
@@ -46,10 +46,10 @@ export const Hero = () => {
                     <img src="./assets/images/img04.png" alt="" />
                 </div>
                 <div className="tech-icon">
-                    <img src="./assets/images/img04.png" alt="" />
+                    <img src="./assets/images/laravel.png" alt="" />
                 </div>
                 <div className="tech-icon">
-                    <img src="./assets/images/img04.png" alt="" />
+                    <img src="./assets/images/django.png" alt="" />
                 </div>
             </div>
         </div>

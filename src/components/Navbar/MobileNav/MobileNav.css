@@ -21,8 +21,11 @@
     padding: 2rem;
 }
 
-.mobile-menu-container h5{
-    margin-bottom: 3rem;
+.mobile-menu-container .portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 
 .mobile-menu.active{

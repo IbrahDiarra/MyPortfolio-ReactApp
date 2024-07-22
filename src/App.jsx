@@ -6,6 +6,7 @@ import Skills from "./components/Skills/Skills";
 import Work from "./components/Work/Work";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import Project from "./components/Project/Project";
 
 
 const App = () =>{
@@ -15,8 +16,9 @@ const App = () =>{
 
       <div className="container">
         <Hero/>
-        <Skills/>
         <Work/>
+        <Skills/> 
+        <Project/>
         <Contact/>
       </div>
 

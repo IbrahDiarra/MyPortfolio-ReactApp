@@ -9,10 +9,18 @@ const Contact = () => {
         <h5>Contact Me</h5>
 
         <div className="contact-content">
-            <div style={{flex:1}}>
+            <div className='contact-content-card' style={{flex:2}}>
                 <ContactCard
                     iconUrl="./assets/images/email-icon.png"
                     text="ibrahdiarra40@gmail.com"
+                />
+                <ContactCard
+                    iconUrl="./assets/images/phone.png"
+                    text="(+225) 05 458 855 12"
+                />
+                <ContactCard
+                    iconUrl="./assets/images/location.png"
+                    text="INPHB-Centre Yamoussoukro"
                 />
                 <ContactCard
                     iconUrl="./assets/images/github-icon.png"

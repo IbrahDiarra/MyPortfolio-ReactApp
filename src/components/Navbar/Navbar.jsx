@@ -15,17 +15,21 @@ const NavBar = () =>{
 
             <nav className="nav-wrapper">
                 <div className="nav-content">
-                    <span>MyPortfolio</span>
+                    <div className="portfolio">
+                        <img src="./assets/images/portfolio2.png" alt="" />
+                        <span>MyPortfolio</span>
+                    </div>
+                   
 
                     <ul>
                         <li>
-                            <span className="menu-item">Home</span>
+                            <span className="menu-item">About Me</span>
                         </li>
                         <li>
                             <span className="menu-item">Skills</span>
                         </li>
                         <li>
-                            <span className="menu-item">Work Experience</span>
+                            <span className="menu-item">Formations</span>
                         </li>
                         <li>
                             <span className="menu-item">Contact Me</span>

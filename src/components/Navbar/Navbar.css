@@ -21,6 +21,13 @@
     height: auto;
 }
 
+.portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
 .nav-content ul{
     display: flex;
     align-items: center;
