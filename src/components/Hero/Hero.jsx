@@ -3,9 +3,9 @@ import './Hero.css';
 
 export const Hero = () => {
   return (
-    <section className="hero-container">
+    <section id='about' className="hero-container">
         <div className="hero-content">
-            <h2>Ibrahim DIARRASSOUBA</h2>
+            <h2>J'suis Ibrahim DIARRASSOUBA</h2>
             <p>
             Élève Ingénieur en 
             3ème année

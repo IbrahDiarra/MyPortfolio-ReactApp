@@ -36,7 +36,7 @@ const NavBar = () =>{
                         </li>
 
                         <button className="contact-btn" onClick={() => {}}>
-                            Hire Me
+                             Download CV
                         </button>
                     </ul>
 

@@ -26,7 +26,7 @@ export const MobileNav = ({isOpen, toggleMenu}) => {
                     </li>
 
                     <button className="contact-btn" onClick={() => {}}>
-                        Hire Me
+                        Télécharger CV
                     </button>
                 </ul>
             </div>

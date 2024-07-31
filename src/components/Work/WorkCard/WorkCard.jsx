@@ -4,13 +4,13 @@ import './WorkCard.css';
 const WorkCard = ({details}) => {
   return (
     <div className="work-experience-card">
-        <h6>{details.title}</h6>
+        <h6>{details.responsabilities}</h6>
 
         <div className="work-duration">{details.date}</div>
 
-        <ul>
-            <li>{details.responsabilities}</li>
-        </ul>
+        <div className="school">
+          {details.title}
+        </div>
     </div>
   ); 
 };

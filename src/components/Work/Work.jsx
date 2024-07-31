@@ -35,7 +35,7 @@ const Work = () => {
     };
 
   return (
-    <section className="experience-container">
+    <section id='formations' className="experience-container">
         <h5>Formations</h5>
 
         <div className="experience-content">

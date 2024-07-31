@@ -28,6 +28,11 @@
     gap: 1rem;
 }
 
+.portfolio span{
+    font-family: 'Bauhaus 93';
+    font-size: 1.5rem;
+}
+
 .nav-content ul{
     display: flex;
     align-items: center;
@@ -46,6 +51,7 @@
     color: #fff;
     position: relative;
     cursor: pointer;
+    font-family: 'Berlin Sans FB';
 }
 
 .menu-item::before{
@@ -81,6 +87,7 @@
     border-radius: 0.2rem;
     cursor: pointer;
     transition: all 0.3s ease;
+    font-family: 'Berlin Sans FB';
 }
 
 .contact-btn:hover{
