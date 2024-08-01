@@ -13,6 +13,13 @@
     border: 1.5px solid #6751b9;
 }
 
+.project-container h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    font-family: 'Berlin Sans FB';
+}
+
 .blogs .box-container .boxs:hover .image h3{
     left: 1.5rem;
 }
@@ -24,7 +31,7 @@
 
 .blogs .box-container .boxs .image{
     position: relative;
-    height: 15rem;
+    height: 10rem;
     overflow: hidden;
     width: 100%;
     border-radius: 3rem 3rem 0 0;
@@ -55,7 +62,7 @@
 }
 
 .blogs .box-container .boxs .content{
-    padding: 2rem 1.5rem;
+    padding: 1rem;
     background: #130f2a;
     border-radius: 0 0 3rem 3rem;
 }
@@ -80,12 +87,12 @@
 }
 
 .blogs .box-container .boxs .content h3{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #8c8aa4;
 }
 
 .blogs .box-container .boxs .content p{
-    font-size: 1rem;
+    font-size: 0.8rem;
     column-rule: #635985;
     padding: 1rem 0;
     line-height: 2;

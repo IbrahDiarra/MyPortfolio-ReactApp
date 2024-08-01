@@ -8,7 +8,7 @@ const project = () => {
     <section className="blogs project-container">
         <h5>Projets</h5>
         <div className="box-container">
-             <div class="box">
+            <div class="box">
                 <div className='boxs'>
                     <div class="image">
                         
@@ -35,12 +35,12 @@ const project = () => {
                     </div>
                     <div class="content">
                         <div class="tags">
-                            <span><i class="fas fa-tag"></i> food</span>
-                            <span><i class="fas fa-tag"></i> burgger</span>
-                            <span><i class="fas fa-tag"></i> pizza</span>
+                            <span><i class="fas fa-tag"></i>PHP</span>
+                            <span><i class="fas fa-tag"></i> Bootstrap</span>
+                            <span><i class="fas fa-tag"></i> MySql</span>
                         </div>
 
-                        <h3>blog title goes here ..</h3>
+                        <h3>Conception d'une application</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, quam voluptatibus! Numquam architecto necessitatibus</p>
                      
                     </div>

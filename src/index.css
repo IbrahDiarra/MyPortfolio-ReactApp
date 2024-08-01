@@ -9,7 +9,6 @@
   border: none;
   outline: none;
   text-decoration: none;
-  text-transform: capitalize;
   -webkit-transform: .3s linear;
   transition: .3s linear;
 }
