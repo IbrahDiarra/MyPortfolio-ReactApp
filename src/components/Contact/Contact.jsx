@@ -23,8 +23,8 @@ const Contact = () => {
                     text="INPHB-Centre Yamoussoukro"
                 />
                 <ContactCard
-                    iconUrl="./assets/images/github-icon.png"
-                    text="https://github.com/IbrahDiarra"
+                    iconUrl="./assets/images/linkedin.png"
+                    text="https://www.linkedin.com/in/ibrahim-diarrassouba-088528241/"
                 />
             </div>
             <div style={{flex:1}}>

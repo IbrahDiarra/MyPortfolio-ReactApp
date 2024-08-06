@@ -5,20 +5,16 @@ export const Hero = () => {
   return (
     <section id='about' className="hero-container">
         <div className="hero-content">
-            <h2>J'suis Ibrahim DIARRASSOUBA</h2>
+            <h2>Bienvenue sur mon portfolio !</h2>
+            <span>Je suis Ibrahim DIARRASSOUBA,</span>
             <p>
-            Élève Ingénieur en 
-            3ème année
-            Science et Technologie de
-            l’Information et de la
-            Communication (STIC) à l’INPHB,
-            passionné par les nouvelles
-            technologies. Rigoureux, organisé
-            et doté d'un esprit d’équipe, je
-            suis à la recherche d'un stage
-            enrichissant pour approfondir mes
-            compétences et contribuer à la
-            réussite de votre entreprise.
+              Étudiant ingénieur en informatique à l'INP-HB passionné par le développement web et mobile, 
+              ainsi que le web design et le UI design. En tant que développeur freelance, 
+              j'offre des solutions sur mesure en utilisant des technologies comme JavaScript, Angular, ReactJs, et Flutter.
+            </p>
+            <p><br />
+                
+                N'hésitez pas à explorer mes projets récents et à me contacter si vous souhaitez collaborer !
             </p>
         </div>
 

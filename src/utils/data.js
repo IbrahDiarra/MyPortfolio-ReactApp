@@ -13,7 +13,7 @@ export const SKILLS = [
         icon:"./assets/images/backend-icon.png",
         skills:[
             {skill:"Django",percentage:"54%"},
-            {skill:"Express.js",percentage:"40%"},
+            {skill:"PHP & Python",percentage:"55%"},
             {skill:"Laravel",percentage:"51%"},
         ],
     },
@@ -95,4 +95,43 @@ export const WORK_EXPERIENCE = [
         date: "Septembre 2016 - Juillet 2017",
         responsabilities: "Baccalauréat Série C"
     },
+]
+
+export const PROJ = [
+    {
+        imge: "./assets/images/blog-1.jpeg",
+        titre: "DiarraEbook",
+        description: "Site de telechargement de livre",
+        techno:[
+            "React Js",
+        ],
+    },
+    {
+        imge: "./assets/images/blog-2.jpeg",
+        titre: "D-Coffe",
+        description: "Publicite de cafe",
+        techno:[
+            "Angular",
+            "Bootstrap",
+        ],
+    },
+    {
+        imge: "./assets/images/blog-3.jpeg",
+        titre: "MyShop",
+        description: "Site de vente en ligne",
+        techno:[
+            "HTML",
+            "CSS",
+            "JS",
+        ],
+    },
+    {
+        imge: "./assets/images/blog-2.jpeg",
+        titre: "D-Coffe",
+        description: "Publicite de cafe",
+        techno:[
+            "Angular",
+            "Bootstrap",
+        ],
+    }
 ]

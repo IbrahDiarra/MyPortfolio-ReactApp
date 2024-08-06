@@ -44,6 +44,29 @@ form button:hover{
     background: transparent;
 }
 
+.message{
+    flex: 1;
+    width: 100%;
+    font-size: 0.9rem;
+    color: #ececec;
+    background: #130f2a;
+    border-radius: 0.6rem;
+    border: 0.8px solid #6751b9;
+    padding: 0.5rem;
+    text-align: center;
+    margin-bottom: 0.7rem;
+}
+
+.message.success {
+    background-color: #d4edda; /* Light green background */
+    color: #155724; /* Dark green text */
+  }
+  
+  .message.error {
+    background-color: #f8d7da; /* Light red background */
+    color: #721c24; /* Dark red text */
+  }
+
 @media (max-width : 450px){
     
     .name-container{
