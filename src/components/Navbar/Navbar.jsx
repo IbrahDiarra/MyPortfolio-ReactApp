@@ -17,27 +17,30 @@ const NavBar = () =>{
                 <div className="nav-content">
                     <div className="portfolio">
                         <img src="./assets/images/portfolio2.png" alt="" />
-                        <span>MyPortfolio</span>
+                        <span>Freelancer</span>
                     </div>
                    
 
                     <ul>
                         <li>
-                            <span className="menu-item">About Me</span>
+                            <a href="#about"  className="menu-item">About Me</a>
                         </li>
                         <li>
-                            <span className="menu-item">Skills</span>
+                            <a href="#formations"  className="menu-item">Formations</a>
                         </li>
                         <li>
-                            <span className="menu-item">Formations</span>
+                            <a href="#skills" className="menu-item">Skills</a>
                         </li>
                         <li>
-                            <span className="menu-item">Contact Me</span>
+                            <a href="#portfolio" className="menu-item">Porfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact" className="menu-item">Contact Me</a>
                         </li>
 
-                        <button className="contact-btn" onClick={() => {}}>
+                        <a href="./assets/ibrahdiarra-cv.pdf" className="contact-btn" target="_blank">
                              Download CV
-                        </button>
+                        </a>
                     </ul>
 
                     <button className="menu-btn" onClick={toggleMenu}>

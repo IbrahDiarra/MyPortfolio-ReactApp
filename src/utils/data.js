@@ -18,12 +18,12 @@ export const SKILLS = [
         ],
     },
     {
-        title:"LOISIRS",
+        title:"Outils",
         icon:"./assets/images/tools-icon.png",
         skills:[
-            {skill:"Lecture de Romans",percentage:"60%"},
-            {skill:"Sport",percentage:"45%"},
-            {skill:"Recherches",percentage:"85%"},
+            {skill:"Photoshop",percentage:"60%"},
+            {skill:"Figma",percentage:"75%"},
+            {skill:"Adobe XD",percentage:"65%"},
         ],
     },
     {

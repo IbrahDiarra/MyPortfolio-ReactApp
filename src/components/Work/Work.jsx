@@ -40,13 +40,15 @@ const Work = () => {
 
         <div className="experience-content">
 
-            <div className="arrow-right" onClick={slideRight}>
-                <span class="material-symbols-outlined">chevron_right</span>
+            <div className="arrow-left" onClick={slideLeft}>
+                  <i className="ri-arrow-left-s-line"></i>
             </div>
 
-            <div className="arrow-left" onClick={slideLeft}>
-                <span class="material-symbols-outlined">chevron_left</span>
+            <div className="arrow-right" onClick={slideRight}>
+                 <i className="ri-arrow-right-s-line"></i>
             </div>
+
+            
 
 
             <Slider ref={sliderRef} {...settings}>

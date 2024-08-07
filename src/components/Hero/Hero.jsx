@@ -6,16 +6,17 @@ export const Hero = () => {
     <section id='about' className="hero-container">
         <div className="hero-content">
             <h2>Bienvenue sur mon portfolio !</h2>
-            <span>Je suis Ibrahim DIARRASSOUBA,</span>
-            <p>
-              Étudiant ingénieur en informatique à l'INP-HB passionné par le développement web et mobile, 
-              ainsi que le web design et le UI design. En tant que développeur freelance, 
-              j'offre des solutions sur mesure en utilisant des technologies comme JavaScript, Angular, ReactJs, et Flutter.
-            </p>
-            <p><br />
-                
-                N'hésitez pas à explorer mes projets récents et à me contacter si vous souhaitez collaborer !
-            </p>
+            <div className="hero-descrip">
+                <p>J'suis <span>Ibrahim DIARRASSOUBA,</span></p>
+                <p>
+                    Étudiant ingénieur en informatique à l'INP-HB passionné par le développement web et mobile, 
+                    ainsi que le web design et le UI design. En tant que développeur freelance, 
+                    j'offre des solutions sur mesure en utilisant des technologies comme JavaScript, Angular, ReactJs,Flutter, Laravel etc...
+                </p>
+                <p><br />
+                    N'hésitez pas à explorer mes projets récents et à me contacter si vous souhaitez collaborer !
+                </p>
+            </div>
         </div>
 
         <div className="hero-img">

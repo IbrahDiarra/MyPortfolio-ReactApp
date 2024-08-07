@@ -129,7 +129,7 @@
     height: 250%;
     background-color: white;
     box-shadow: 0 0 20px rgb(8,8,8);
-    animation: animate 6s linear infinite;
+    animation: animate 10s linear infinite;
 }
 
 .box::after{

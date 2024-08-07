@@ -17,3 +17,24 @@ body{
   color: #fff;
   background-color: #060417;
 }
+
+html{
+  font-size: 90%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 8.5rem;
+}
+
+html::-webkit-scrollbar{
+  width: 0.7rem;
+}
+
+html::-webkit-scrollbar-track{
+  background:#f7f6f9;
+}
+
+html::-webkit-scrollbar-thumb{
+  background:#383347;
+  border-radius: 20px;
+  cursor: pointer;
+}

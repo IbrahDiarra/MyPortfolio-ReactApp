@@ -21,8 +21,8 @@ const Project = () => {
       };
     
   return (
-    <section className="blogs project-container">
-        <h5>Projets</h5>
+    <section id="portfolio" className="blogs project-container">
+        <h5>Mes Projets</h5>
         <div className="lesbtn">
             <div className="arrows-left" onClick={swiperLeft}>
                 <i className="ri-arrow-left-s-line"></i>

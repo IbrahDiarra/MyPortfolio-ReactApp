@@ -32,8 +32,21 @@
     flex: 1;
 }
 
+.hero-descrip{
+    font-size: 0.9rem;
+    color: #fff;
+    background: #130f2a;
+    border-radius: 1rem;
+    border: 1px solid #6751b9;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .hero-content h2{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 600;
     line-height: 5rem;
     margin-bottom: 1rem;
@@ -45,7 +58,8 @@
     font-weight: 300;
     line-height: 4rem;
     margin-bottom: 1rem;
-    font-family: 'Trebuchet MS';
+    font-family: 'Bauhaus 93';
+    color: #6751b9;
 }
 
 .hero-content p{
@@ -81,8 +95,9 @@
     content: '';
     position: absolute;
     inset: 2px;
-    background-color: #332b84;
+    background-color: #130f2a;
     border-radius: 10px;
+    overflow: hidden;
 
 }
 
