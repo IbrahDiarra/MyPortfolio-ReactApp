@@ -27,12 +27,12 @@ export const SKILLS = [
         ],
     },
     {
-        title:"Soft Skills",
+        title:"Databases",
         icon:"./assets/images/soft-skills-icon.png",
         skills:[
-            {skill:"Créative & Organisée",percentage:"92%"},
-            {skill:"Travail en équipe",percentage:"95%"},
-            {skill:"Communication",percentage:"90%"},
+            {skill:"MySQL",percentage:"92%"},
+            {skill:"Mongodb",percentage:"85%"},
+            {skill:"PostgreSQL",percentage:"60%"},
         ],
     },
 ];
@@ -100,25 +100,18 @@ export const WORK_EXPERIENCE = [
 export const PROJ = [
     {
         imge: "./assets/images/blog-1.jpeg",
-        titre: "DiarraEbook",
-        description: "Site de telechargement de livre",
+        titre: "DiarraEcomm",
+        description: "Exemple de site de vente en ligne de plusieurs produits différents",
         techno:[
-            "React Js",
-        ],
-    },
-    {
-        imge: "./assets/images/blog-2.jpeg",
-        titre: "D-Coffe",
-        description: "Publicite de cafe",
-        techno:[
-            "Angular",
-            "Bootstrap",
+            "HTML",
+            "CSS",
+            "JS",
         ],
     },
     {
         imge: "./assets/images/blog-3.jpeg",
-        titre: "MyShop",
-        description: "Site de vente en ligne",
+        titre: "DiarraCafe",
+        description: "Un site qui vous fait la publicité du café ivoirien",
         techno:[
             "HTML",
             "CSS",
@@ -127,11 +120,22 @@ export const PROJ = [
     },
     {
         imge: "./assets/images/blog-2.jpeg",
-        titre: "D-Coffe",
-        description: "Publicite de cafe",
+        titre: "DiarraEbook",
+        description: "Exemple de site qui vous propose des trésors littéraires",
         techno:[
-            "Angular",
-            "Bootstrap",
+            "React JS",
+            "HTML",
+            "CSS",
         ],
-    }
+    },
+    {
+        imge: "./assets/images/blog-3.jpeg",
+        titre: "DiarraCafe",
+        description: "Un site qui vous fait la publicité du café ivoirien",
+        techno:[
+            "HTML",
+            "CSS",
+            "JS",
+        ],
+    },
 ]

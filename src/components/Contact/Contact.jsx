@@ -15,7 +15,7 @@ const Contact = () => {
                     text="ibrahdiarra40@gmail.com"
                 />
                 <ContactCard
-                    iconUrl="./assets/images/phone.png"
+                    iconUrl="./assets/images/whatsapp.png"
                     text="(+225) 05 458 855 12"
                 />
                 <ContactCard
